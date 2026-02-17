@@ -695,34 +695,34 @@ export default function Home() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-6">
-          <TeamMemberCard
+          {/* <TeamMemberCard
             name={t.landing.team.member1Name}
             role={t.landing.team.member1Role}
             image="/sahil-kumar-singh.jpg"
             bio={t.landing.team.member1Bio}
-          />
+          /> */}
           <TeamMemberCard
             name={t.landing.team.member2Name}
             role={t.landing.team.member2Role}
-            image="/siddhant-tiwari.jpg"
+            image="/lokesh_ghar.jpeg"
             bio={t.landing.team.member2Bio}
           />
           <TeamMemberCard
             name={t.landing.team.member3Name}
             role={t.landing.team.member3Role}
-            image="/akshit-thakur.jpg"
+            image="/shivanshu.jpeg"
             bio={t.landing.team.member3Bio}
           />
           <TeamMemberCard
             name={t.landing.team.member4Name}
             role={t.landing.team.member4Role}
-            image="/shivam-rana.jpg"
+            image="/rishabh.jpeg"
             bio={t.landing.team.member4Bio}
           />
           <TeamMemberCard
             name={t.landing.team.member5Name}
             role={t.landing.team.member5Role}
-            image="/nancy.jpg"
+            image="/rajdev.jpeg"
             bio={t.landing.team.member5Bio}
           />
         </div>

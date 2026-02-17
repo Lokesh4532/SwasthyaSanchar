@@ -3,9 +3,8 @@ generator client {
 }
 
 datasource db {
-  provider  = "postgresql"
-  url       = env("DATABASE_URL")
-  directUrl = env("DIRECT_URL")
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
 }
 
 model User {
@@ -375,7 +374,7 @@ model QueueStatistics {
   departmentCode String
   
   // Time bucket (hourly)
-  date          DateTime @db.Date
+  date          DateTime
   hour          Int      // 0-23
   dayOfWeek     Int      // 0=Sunday, 6=Saturday
   

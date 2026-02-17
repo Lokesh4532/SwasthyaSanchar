@@ -61,7 +61,7 @@ export default function HelpSupportPage() {
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-8">
                         {/* Sahil Kumar Singh */}
-                        <div className="bg-white dark:bg-neutral-800 rounded-2xl border-2 border-neutral-200 dark:border-neutral-700 overflow-hidden hover:shadow-2xl hover:scale-105 hover:border-blue-500 dark:hover:border-blue-500 transition-all duration-300 group">
+                        {/* <div className="bg-white dark:bg-neutral-800 rounded-2xl border-2 border-neutral-200 dark:border-neutral-700 overflow-hidden hover:shadow-2xl hover:scale-105 hover:border-blue-500 dark:hover:border-blue-500 transition-all duration-300 group">
                             <div className="aspect-square overflow-hidden bg-neutral-100 dark:bg-neutral-700">
                                 <img
                                     src="/sahil-kumar-singh.jpg"
@@ -83,7 +83,7 @@ export default function HelpSupportPage() {
                                     Contact →
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* Shivam Rana */}
                         <div className="bg-white dark:bg-neutral-800 rounded-2xl border-2 border-neutral-200 dark:border-neutral-700 overflow-hidden hover:shadow-2xl hover:scale-105 hover:border-blue-500 dark:hover:border-blue-500 transition-all duration-300 group">
@@ -96,7 +96,7 @@ export default function HelpSupportPage() {
                             </div>
                             <div className="p-6">
                                 <h3 className="font-bold text-base text-neutral-900 dark:text-neutral-50 mb-2">
-                                    Shivam Rana
+                                    Rajdev Singh
                                 </h3>
                                 <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
                                     Blockchain Developer
@@ -121,7 +121,7 @@ export default function HelpSupportPage() {
                             </div>
                             <div className="p-6">
                                 <h3 className="font-bold text-base text-neutral-900 dark:text-neutral-50 mb-2">
-                                    Siddhant Tiwari
+                                    Lokesh Chaturvedi
                                 </h3>
                                 <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
                                     UI/UX Designer
@@ -146,7 +146,7 @@ export default function HelpSupportPage() {
                             </div>
                             <div className="p-6">
                                 <h3 className="font-bold text-base text-neutral-900 dark:text-neutral-50 mb-2">
-                                    Akshit Thakur
+                                    Rishabh Chandel
                                 </h3>
                                 <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
                                     Backend Developer
@@ -171,7 +171,7 @@ export default function HelpSupportPage() {
                             </div>
                             <div className="p-6">
                                 <h3 className="font-bold text-base text-neutral-900 dark:text-neutral-50 mb-2">
-                                    Nancy
+                                    Shivanshu Singh
                                 </h3>
                                 <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
                                     Project Manager
